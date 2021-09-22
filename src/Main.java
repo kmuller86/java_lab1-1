@@ -10,12 +10,23 @@ public class Main {
          * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
          * */
 
+        if(24 % 3 == 0)
+            System.out.println("Podzielny przez 3");
+        else
+            System.out.println("Niepodzielny przez 3");
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
+        int indeks = 56115;
+        int wynik = (indeks % 2 == 0) ? 0 : 1;
+        if(wynik == 0)
+            System.out.println("Indeks jest parzysty");
+        else
+            System.out.println("Indeks jest nieparzysty");
 
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
+
 
     }
 }
