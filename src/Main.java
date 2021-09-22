@@ -27,6 +27,13 @@ public class Main {
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj liczbę zmiennoprzecinkową");
+        double liczba = scan.nextDouble();
+        if(liczba < 666)
+            System.out.println("Liczba jest mniejsza od 666");
+        else
+        System.out.println("Liczba jest większa lub równa 666");
 
     }
 }
