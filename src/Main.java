@@ -30,6 +30,7 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj liczbę zmiennoprzecinkową");
         double liczba = scan.nextDouble();
+        /* miało być else if()   */
         if(liczba < 666)
             System.out.println("Liczba jest mniejsza od 666");
         else
